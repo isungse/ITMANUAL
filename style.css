@@ -1,0 +1,26 @@
+.title-line {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.menus {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 2px solid rgb(235, 235, 235);
+  border-bottom: 4px double black;
+}
+
+.menus button{
+    border: none;
+    background: none;
+    margin: 6px;
+}
+
+.menus button:hover{
+    background-color: bisque;
+    border-radius: 2px;
+}
