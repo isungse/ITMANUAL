@@ -1,3 +1,20 @@
+/*
+body {
+  margin: 0;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+*/
+
 .title-line {
   margin-top: 2em;
   display: flex;
@@ -14,13 +31,24 @@
   border-bottom: 4px double black;
 }
 
-.menus button{
-    border: none;
-    background: none;
-    margin: 6px;
+.menus button {
+  border: none;
+  background: none;
+  margin: 6px;
 }
 
-.menus button:hover{
-    background-color: bisque;
-    border-radius: 2px;
+.menus button:hover {
+  background-color: bisque;
+  border-radius: 2px;
+}
+
+.box{
+  display: flex;
+  margin-top: 20pt;
+  border: 1px 
+}
+
+.box :hover{
+  background-color: blanchedalmond;
+  border-radius: 2px;
 }
