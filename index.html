@@ -1,46 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section class="container">
-      <section>
-        <div class="title-line">
-          <img src="./images/manual2.png" />
-        </div>
-        <div class="menus">
-          <button id="network">네트워크</button>
-          <button id="barcode">바코드</button>
-          <button>하드웨어</button>
-          <button>소프트웨어</button>
-          <button id="ocs">OCS MANUAL</button>
-          <button>PC</button>
-          <button>PACS</button>
-          <button>장애처리</button>
-          <button>내선번호</button>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-      <section id="show-pdf"></section>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="container">
+    <section>
+      <div class="title-line">
+        <img src="./images/manual2.png" />
+      </div>
+      <div class="menus">
+        <button id="network">Network</button>
+        <button>HDD</button>
+        <button>Window</button>
+        <button id="barcode">Linux</button>
+        <button id="barcode">Oracle</button>
+        <button id="ocs">OCS</button>
+        <button id="ocs">Market</button>
+        <button type="button" onclick="location.href='phonebook.html'">내선번호</button>
+        <button>공지사항</button>
+      </div>
+      </div>
     </section>
+    <div class="row">
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js"></script>
-  </body>
+      <div class="col-3 box">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">공유폴더 접속불가</h5>
+            <p class="card-text">이 네트워크 리소스를 사용할 권한이 없는 것 같습니다. 이 서버의.. </p>
+            <a href="network.html" class="btn btn-primary">Read More</a>
+
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="col-3 box">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">네트워크 접속불량</h5>
+            <p class="card-text">OCS 프로그램 실행 시 TPCall 에러 또는 네트워크 오류가 뜨는 경우는..</p>
+            <a href="lanstatus.html" class="btn btn-primary">Read More</a>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-3 box">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">PC IP 확인</h5>
+            <p class="card-text">원격지원 또는 업무용 웹사이트 접속 시 IP 확인이 필요 합니다</p>
+            <a href="ipconfirm.html" class="btn btn-primary">Read More</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-3 box">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">PC 연결 케이블</h5>
+            <p class="card-text">데스크톱 PC 뒷면에 있는 모니터 연결 케이블 및 장비 입력단자 확인 </p>
+            <a href="pcconnect.html" class="btn btn-primary">Read More</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-3 box">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">프린터 연결 상태</h5>
+              <p class="card-text">전원이 들어와 있는 상태에서 프린터 출력 시 인쇄가 되지 않는 경우 </p>
+              <a href="printer.html" class="btn btn-primary">Read More</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 box">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">그룹웨어 주소 확인</h5>
+              <p class="card-text">그룹웨어 메신저를 재설치한 경우 주소를 초기화 시켜 주어야 한다. </p>
+              <a href="groupware.html" class="btn btn-primary">Read More</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-3 box">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">OCS 비밀번호 변경</h5>
+              <p class="card-text">비밀번호 변경 시 사용하면 안되는 특수문자가 있습니다.</p>
+              <a href="ocspwd.html" class="btn btn-primary">Read More</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-3 box">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">OCS 약속처방 만들기</h5>
+              <p class="card-text">처방입력 화면에서 자주 사용하는 처방코드를 등록 하는 방법</p>
+              <a href="setorder.html" class="btn btn-primary">Read More</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- 다음 라인 시작-->
+
+        <div class="row">
+
+          <div class="col-3 box">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">OCS EMR 서식지 등록</h5>
+                <p class="card-text">자주 사용하는 EMR 서식지를 즐겨찾기 처럼 등록 할수 있습니다.</p>
+                <a href="setdoc.html" class="btn btn-primary">Read More</a>
+  
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 box">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">바코드 초기화</h5>
+                <p class="card-text">전원 상태 점검 및 용지 교체 후에도 출력이 되지 않을 경우에..</p>
+                <a href="barcode.html" class="btn btn-primary">Read More</a>
+  
+              </div>
+            </div>
+          </div>
+
+    <section id="show-pdf"></section>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
